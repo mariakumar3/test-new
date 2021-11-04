@@ -41,7 +41,16 @@
     "creationTimestamp": 1636033742348,
     "jwtSecretKey": "NjJlNDlkMTNhYmMzNmQzZWE0ZDlhYjk3ZmNkZDg4MmIyMmExYmUwYTEzMmI1NzJiODYxMTIzNGVkZjE4YTQxZjMwNjlhYWJlODVkZGQxNDUzM2NjMzY1MzJjN2I5Y2QxZDZhMTc3ZGUzOWIxZWEwMGI1MDViYzJkOWNhMGU0MTg=",
     "reactive": false,
-    "enableGradleEnterprise": false
+    "enableGradleEnterprise": false,
+    "entities": [
+      "TenderEligibilityCriterion",
+      "TenderEligibilityCriterionDocument",
+      "TenderTechnicalCriterion",
+      "TenderTechnicalCriterionDocument",
+      "TenderPreQualCriterion",
+      "TenderPreQualCriterionDocument"
+    ],
+    "lastLiquibaseTimestamp": 1636033855000
   },
   "git-provider": "GitHub",
   "git-company": "mariakumar3",

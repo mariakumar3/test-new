@@ -1,0 +1,39 @@
+{
+  "name": "TenderTechnicalCriterionDocument",
+  "fields": [
+    {
+      "fieldName": "nitId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "tenderTechnicalCriterionId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "documentType",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "documentName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "optional",
+      "fieldType": "Boolean"
+    }
+  ],
+  "relationships": [],
+  "entityTableName": "tender_technical_criterion_document",
+  "dto": "mapstruct",
+  "pagination": "no",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "microserviceName": "testnew",
+  "clientRootFolder": "testnew",
+  "databaseType": "sql",
+  "changelogDate": "20211104135053"
+}
