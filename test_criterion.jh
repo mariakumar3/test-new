@@ -1,0 +1,47 @@
+entity TenderEligibilityCriterion{
+nitId Long,
+description String,
+isUserAdded Boolean
+}
+
+entity TenderEligibilityCriterionDocument{
+nitId Long,
+documentType String,
+documentName String,
+optional Boolean
+}
+
+entity TenderTechnicalCriterion {
+nitId Long,
+description String,
+criterionCategory String,
+isUserAdded Boolean
+}
+
+entity TenderTechnicalCriterionDocument {
+nitId Long,
+tenderTechnicalCriterionId Long,
+documentType String,
+documentName String,
+optional Boolean
+}
+
+entity TenderPreQualCriterion {
+nitId Long,
+description String,
+criterionCategory String,
+isUserAdded Boolean
+}
+
+entity TenderPreQualCriterionDocument {
+nitId Long,
+tenderTechnicalCriterionId Long,
+documentType String,
+documentName String,
+optional Boolean
+}
+
+
+dto * with mapstruct
+
+service all with serviceImpl
