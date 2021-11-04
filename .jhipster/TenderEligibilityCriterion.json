@@ -1,0 +1,31 @@
+{
+  "name": "TenderEligibilityCriterion",
+  "fields": [
+    {
+      "fieldName": "nitId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "description",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "isUserAdded",
+      "fieldType": "Boolean"
+    }
+  ],
+  "relationships": [],
+  "entityTableName": "tender_eligibility_criterion",
+  "dto": "mapstruct",
+  "pagination": "no",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "microserviceName": "testnew",
+  "clientRootFolder": "testnew",
+  "databaseType": "sql",
+  "changelogDate": "20211104135050"
+}
