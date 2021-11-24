@@ -48,9 +48,12 @@
       "TenderTechnicalCriterion",
       "TenderTechnicalCriterionDocument",
       "TenderPreQualCriterion",
-      "TenderPreQualCriterionDocument"
+      "TenderPreQualCriterionDocument",
+      "ServiceEstimate",
+      "ServiceEstimateItem",
+      "DocumentObjectStore"
     ],
-    "lastLiquibaseTimestamp": 1636033855000
+    "lastLiquibaseTimestamp": 1637773160000
   },
   "git-provider": "GitHub",
   "git-company": "mariakumar3",
