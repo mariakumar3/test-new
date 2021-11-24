@@ -1,0 +1,35 @@
+{
+  "name": "DocumentObjectStore",
+  "fields": [
+    {
+      "fieldName": "serviceEstimateId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "referenceType",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "referenceId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "activeYn",
+      "fieldType": "Boolean"
+    }
+  ],
+  "relationships": [],
+  "entityTableName": "document_object_store",
+  "dto": "mapstruct",
+  "pagination": "no",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "microserviceName": "testnew",
+  "clientRootFolder": "testnew",
+  "databaseType": "sql",
+  "changelogDate": "20211124165920"
+}

@@ -1,0 +1,79 @@
+{
+  "name": "ServiceEstimateItem",
+  "fields": [
+    {
+      "fieldName": "serviceEstimateId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "categoryName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "categoryItemId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "itemName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "itemCode",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "specifications",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "buyBackYn",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "entryOrder",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "denominationType",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "quantity",
+      "fieldType": "BigDecimal"
+    },
+    {
+      "fieldName": "valueOfService",
+      "fieldType": "BigDecimal"
+    },
+    {
+      "fieldName": "extendOfContract",
+      "fieldType": "BigDecimal"
+    },
+    {
+      "fieldName": "biddingUnit",
+      "fieldType": "BigDecimal"
+    },
+    {
+      "fieldName": "estimateUnitRate",
+      "fieldType": "BigDecimal"
+    },
+    {
+      "fieldName": "estimateItemPrice",
+      "fieldType": "BigDecimal"
+    }
+  ],
+  "relationships": [],
+  "entityTableName": "service_estimate_item",
+  "dto": "mapstruct",
+  "pagination": "no",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "microserviceName": "testnew",
+  "clientRootFolder": "testnew",
+  "databaseType": "sql",
+  "changelogDate": "20211124165919"
+}

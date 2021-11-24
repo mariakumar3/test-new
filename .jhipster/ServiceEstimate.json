@@ -1,0 +1,107 @@
+{
+  "name": "ServiceEstimate",
+  "fields": [
+    {
+      "fieldName": "serviceEstimateName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "serviceEstimateNumber",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "serviceEstimateDescription",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "deptId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "deptCode",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "locationId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "locationName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "projectId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "projectName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "estimateAmt",
+      "fieldType": "BigDecimal"
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "documentReference",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "budgetAmount",
+      "fieldType": "BigDecimal"
+    },
+    {
+      "fieldName": "hoaDepartment",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "hoaDepartmentId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "hoaSector",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "hoaSectorId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "hoaList",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "hoaListId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "hoaLinkedList",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "hoaLinkedListId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "approvedBudgetYn",
+      "fieldType": "Boolean"
+    }
+  ],
+  "relationships": [],
+  "entityTableName": "service_estimate",
+  "dto": "mapstruct",
+  "pagination": "no",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "microserviceName": "testnew",
+  "clientRootFolder": "testnew",
+  "databaseType": "sql",
+  "changelogDate": "20211124165918"
+}
