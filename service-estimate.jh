@@ -1,0 +1,53 @@
+entity ServiceEstimate{
+serviceEstimateName String,
+serviceEstimateNumber String,
+serviceEstimateDescription String,
+deptId Long,
+deptCode String,
+locationId Long,
+locationName String,
+projectId Long,
+projectName String,
+estimateAmt BigDecimal,
+status String,
+documentReference String,
+budgetAmount BigDecimal,
+hoaDepartment String,
+hoaDepartmentId Long,
+hoaSector String,
+hoaSectorId Long,
+hoaList String,
+hoaListId Long,
+hoaLinkedList String,
+hoaLinkedListId Long,
+approvedBudgetYn Boolean,
+}
+
+entity ServiceEstimateItem {
+serviceEstimateId Long,
+categoryName String,
+categoryItemId Long,
+itemName String,
+itemCode String,
+specifications String,
+buyBackYn Boolean,
+entryOrder Integer,
+denominationType String,
+quantity BigDecimal,
+valueOfService BigDecimal,
+extendOfContract BigDecimal,
+biddingUnit BigDecimal,
+estimateUnitRate BigDecimal,
+estimateItemPrice BigDecimal,
+}
+
+entity DocumentObjectStore {
+serviceEstimateId Long,
+referenceType String,
+referenceId Long,
+activeYn Boolean,
+}
+
+dto * with mapstruct
+
+service all with serviceImpl
